@@ -1,5 +1,7 @@
+import FormularioEditorTickets from "@/app/(components)/FormularioEditorTickets";
+
 const TicketPage = ({ params }) => {
-  return <div>TicketPage ${params.id}</div>;
+  return <FormularioEditorTickets/>;
 };
 
 export default TicketPage;
