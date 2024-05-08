@@ -12,7 +12,6 @@ const ticketShema = new Schema(
     prioridad: Number,
     progreso: Number,
     estado: String,
-    precio: Number,
     activo: Boolean,
   },
   {

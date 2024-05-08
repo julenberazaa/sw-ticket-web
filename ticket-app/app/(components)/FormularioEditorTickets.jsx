@@ -53,7 +53,7 @@ const FormularioEditorTickets = ({ ticket }) => {
     progreso: 0,
     estado: "sin empezar",
     categoria: "Festivales",
-    precio: 0,
+    precio: "",
   };
 
   if (EDITMODE) {
@@ -178,15 +178,7 @@ const FormularioEditorTickets = ({ ticket }) => {
           <option value="finalizado">Finalizado</option>
         </select>
 
-        <label>Precio</label>
-        <input
-          id="precio"
-          name="precio"
-          type="number"
-          onChange={handleChange}
-          required={true}
-          value={formData.precio}
-        />
+        
 
         <input
           type="submit"

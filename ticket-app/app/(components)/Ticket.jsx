@@ -33,7 +33,6 @@ const Ticket = ({ ticket }) => {
         <h4>{ticket.titulo}</h4>
         <hr className="h-px border-0 bg-page mb-2" />
         <p className="whitespace-pre-wrap">{ticket.descripcion}</p>
-        <p className="whitespace-pre-wrap">{ticket.precio}</p>
         <div className="flex-grow"></div>
         <div className="flex mt-2">
           <div className="flex flex-col">
